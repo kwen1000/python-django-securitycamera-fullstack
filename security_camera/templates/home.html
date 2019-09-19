@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv = "refresh" content = "10">
+<style>
+body {margin: 0}
+.image-frame {display: inline-block; width: 50%}
+.image-frame img {width: 100%}
+</style>
+</head>
+<body>
+<div>Live cams</div>
+{% for post in object_list %}
+<div class = "image-frame">
+{{ post.title }}
+<br>
+<img src = "{{ post.cover.url }}">
+</div>
+{% endfor %}
+</body>
