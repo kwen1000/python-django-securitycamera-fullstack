@@ -1,6 +1,6 @@
 <iframe width = "0" height = "0" border = "0" name = "dummyframe" id = "dummyframe"></iframe>
 
-<form method = "post" enctype = "multipart/form-data" target = "dummyframe" onsubmit = "this.reset()">
+<form method = "post" enctype = "multipart/form-data" target = "dummyframe">
 {% csrf_token %}
 {{ form.as_p }}
 <button type = "submit">Submit</button>
