@@ -1,4 +1,8 @@
-# python django security camera fullstack
+# python security camera
+
+UNDER CONSTRUCTION. Still working on code.
+
+Only the basics work right now.
 
 Create a new administrator login with `$ python manage.py createsuperuser`. 
 

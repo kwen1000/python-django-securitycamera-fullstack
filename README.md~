@@ -1,21 +1,7 @@
 # python django security camera fullstack
 
+Create a new administrator login with `$ python manage.py createsuperuser`. 
 
+`$ python manage.py runserver 0.0.0.0:8000` in the security_camera directory to start. The URL is the local IP address of the device (e.g. 192.128.X.X:8000).
 
-
-Heading	 # H1
-## H2
-### H3
-Bold	**bold text**
-Italic	*italicized text*
-Blockquote	    > blockquote
-Ordered List	    1. First item
-2. Second item
-3. Third item
-Unordered List	- First item
-- Second item
-- Third item
-Code	`code`
-Horizontal Rule	---
-Link	   [title](https://www.example.com)
-Image	   ![alt text](image.jpg)
+Go to /admin for admin stuff and /home for the live cameras. Each smartphone can go to /post. From there, nothing else needs to be done other than set them to always be awake.
